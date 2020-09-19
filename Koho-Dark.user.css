@@ -1,0 +1,87 @@
+/* ==UserStyle==
+@name			Koho Dark
+@author			Eralp Karaduman
+@description	Dark theme for Koho
+@version		1.0
+@namespace		com.eralpkaraduman.css.koho-dark
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("koho-online.com")
+{
+	/* Hey there! Thanks for buying Cascadea.
+	Since it looks like this is your first custom style,
+	here's a few tips to get you started.
+	
+	First, you need to write some CSS code for the site
+	you'd like to customize. That's what this handy
+	editor is for! I recommend using Safari's Web
+	Inspector to check out the layout and stylesheet
+	of the website you'd like to modify, so you can
+	figure out what you need to customize.
+	
+	The "Rule Editor" up top lets you specify what
+	websites your style should apply to. You can
+	specify a specific domain name, a specific URL,
+	all URLs starting with a specific prefix, or even
+	all URLs matching a regular expression.
+	
+	But what if you need to apply a different block
+	of CSS code to different pages, all within a single
+	"style"? That's where "sections" come in. Each
+	"section" of your style has its own block of CSS,
+	as well as its own set of rules. You can add or
+	remove sections and switch between them in the
+	toolbar up top.
+	
+	Once you're all done, you can export your style to a
+	CSS file from the Share button up top. Then, you can
+	send that file to any other Cascadea user (or even
+	users of similar extensions for other browsers), and
+	they can use it, too. 
+	
+	Have fun, and make something beautiful! */
+	
+	html {
+		background-color: #1b1b1b;
+		color: #ffffff;
+	}
+	
+	table.hippo caption {
+		color: #ffffff;
+	}
+	
+	.ui-widget-content {
+		background-color: #1b1b1b;
+	}
+	
+	table.hippo td {
+		background-color: #1b1b1b;
+		color: #ffffff;
+	}
+	
+	#footer {
+		background-color: #1b1b1b;
+	}
+	
+	#header #action_bar {
+		background: #1b1b1b !important;
+		background-color: #1b1b1b !important;
+	}
+	
+	table.time_sheet input.cell.confirmed {
+		box-shadow: 0 0 26px rgba(194, 112, 0, 0.98), 0 0 0 rgba(194, 112, 0, 0.98) inset !important;
+	}
+	
+	table.hippo th {
+		color: #ffffff;
+		background-color: #1b1b1b !important;
+	}
+	
+	.tab-container .ui-state-default {
+		background-color: #ffffff;
+	
+	}
+	
+	
+}
