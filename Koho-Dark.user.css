@@ -80,8 +80,13 @@
 	
 	.tab-container .ui-state-default {
 		background-color: #ffffff;
-	
 	}
 	
+	.left .date {
+		color: #ffffff !important;
+	}
 	
+	#footer #content #logo {
+		filter: invert(90%);;
+	}
 }
